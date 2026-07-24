@@ -91,7 +91,7 @@ Overall sales reports to understand better, what is being sold to our customers,
 This means the business is looking forward to getting insights on sales overview.
 
 ### Identifying required tables from ERD
-<img src="https://drive.google.com/uc?export=view&id=1261vNgVohVeFa9nJUZtMrmQj44qtSDu7">
+<img src="./readme_images/northwind-oltp-erd.png">
 From the above ERD diagram of the OLTP transactional system, we identify the following required tables that will enable us to meet the business requirements:
 
 <br>
@@ -116,3 +116,6 @@ In the staging layer, we have the following tables:
 - shippers: load shippers from datasets/shippers.csv and insert ingestion timestamp.
 - suppliers: load suppliers from datasets/suppliers.csv and insert ingestion timestamp.
 - invoices: load invoices from datasets/invoices.csv and insert ingestion timestamp.
+
+### **Datawarehouse Layer**
+<img src="./readme_images/logical-model.png">
