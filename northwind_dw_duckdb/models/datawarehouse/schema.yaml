@@ -1,15 +1,15 @@
 version: 2
 
-model
-  -name: dim_customers
+models:
+  - name: dim_cosutomers
     columns:
       - name: customer_id
         tests:
-          - unique
           - not_null
+          - unique
   - name: dim_employees
     columns:
       - name: employee_id
         tests:
-          - unique
           - not_null
+          - unique
