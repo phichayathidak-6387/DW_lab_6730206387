@@ -6,7 +6,34 @@ sources:
     description: "Raw flat files queried directly from the local workspace folder"
     meta: # Additional metadata for the source
       # {name} is a placeholder that automatically injects the table names listed below
-      external_location: '/workspaces/DW_lab_6730206387/northwind_dw_duckdb/datasets/{name}.csv'
+      external_location: 'datasets/{name}.csv'
     tables:
-      - name: customer                  # Maps straight to datasets/customer.csv
+      - name: customer                 # Maps straight to datasets/customer.csv
         description: "Customer data from the Northwind dataset"
+      - name: products
+        description: "Product data from the Northwind dataset"
+      - name: employee_privileges
+        description: "Employee_privileges data from the Northwind dataset"
+      - name: employees
+        description: "Employees data from the Northwind dataset"
+      - name: inventory_transactions
+        description: "Inventory_transactions data from the Northwind dataset"
+      - name: inventory_transaction_types
+        description: "inventory_transaction_types data from the Northwind dataset"
+      - name: invoices
+        description: "Invoices data from the Northwind dataset"
+      - name: order_details
+        description: "Order_details data from the Northwind dataset"
+      - name: order_details_status
+      - name: orders
+      - name: orders_status
+      - name: orders_tax_status
+      - name: privileges
+      - name: purchase_order_details
+      - name: purchase_orders
+      - name: purchase_order_status
+      - name: sales_reports
+      - name: shippers
+      - name: strings
+      - name: suppliers
+      

@@ -15,3 +15,4 @@ dbt debug
 
 # move back to the main folder
 cd ..
+
